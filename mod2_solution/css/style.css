@@ -1,0 +1,112 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+
+}
+div{
+    float:left;
+    width:100%;
+}
+#title{
+    text-align: center;
+    margin: 20px
+
+}
+#food-title-chicken{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    background-color: #d89696;
+    color: #000;
+    font-weight: bold;
+    width:33%;
+    float:right;
+    text-align: center;
+}
+#food-title-beef{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    background-color: #c54646;
+    color: #fff;
+    font-weight: bold;
+    float:right;
+    width: 33%;
+    text-align: center;
+
+
+}
+#food-title-sushi{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    background-color: #e5d09b;
+    color:#000;    
+    font-weight: bold;
+    float:right;
+    width: 33%;
+    text-align: center;
+
+
+}
+.box{
+
+        border: 2px solid black;
+        position: relative;
+        background-color: #979797;
+
+
+
+
+
+}
+.food-description{
+    padding: 10px;
+    clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile: */
+    .col-xs-12 {
+    width: 100%;
+    padding:20px;
+
+
+
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /* For tablet: */
+    .col-m-6 {
+    width: 50%;
+    padding:20px;
+
+
+
+    }
+    .col-m-12 {
+    width: 100%;
+    padding:20px;
+
+
+    }
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-l-4 {
+    width: 33.33%;
+    padding:20px;
+
+
+    }
+    .col-l-12 {
+    width: 100%;
+    padding:20px;
+
+
+    }
+
+
+}
