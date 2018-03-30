@@ -4,19 +4,29 @@
     margin: 0;
     padding: 0;
 }
+
 body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 
 }
+
 div{
     float:left;
     width:100%;
 }
+
 #title{
     text-align: center;
     margin: 20px
+    font-size:175%;
 
 }
+
 #food-title-chicken{
     border-left:2px solid black;
     border-bottom:2px solid black;
@@ -26,7 +36,10 @@ div{
     width:33%;
     float:right;
     text-align: center;
+    font-size:125%;
+
 }
+
 #food-title-beef{
     border-left:2px solid black;
     border-bottom:2px solid black;
@@ -36,9 +49,10 @@ div{
     float:right;
     width: 33%;
     text-align: center;
-
+    font-size:125%;
 
 }
+
 #food-title-sushi{
     border-left:2px solid black;
     border-bottom:2px solid black;
@@ -48,20 +62,16 @@ div{
     float:right;
     width: 33%;
     text-align: center;
-
+    font-size:125%;
 
 }
+
 .box{
 
         border: 2px solid black;
-        position: relative;
         background-color: #979797;
-
-
-
-
-
 }
+
 .food-description{
     padding: 10px;
     clear: both;
@@ -72,25 +82,18 @@ div{
     .col-xs-12 {
     width: 100%;
     padding:20px;
-
-
-
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     /* For tablet: */
     .col-m-6 {
     width: 50%;
-    padding:20px;
-
-
-
+    padding:10px;
     }
+
     .col-m-12 {
     width: 100%;
-    padding:20px;
-
-
+    padding:10px;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -98,14 +101,11 @@ div{
     .col-l-4 {
     width: 33.33%;
     padding:20px;
-
-
     }
+
     .col-l-12 {
     width: 100%;
     padding:20px;
-
-
     }
 
 
