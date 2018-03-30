@@ -22,8 +22,9 @@ div{
 
 #title{
     text-align: center;
-    margin: 20px
+    margin: 20px;
     font-size:175%;
+    font-weight: bold;
 
 }
 
