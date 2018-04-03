@@ -47,7 +47,7 @@ background-color: gray;
     margin-top: 20px;
 }
 .food-description{
-    p
+    padding: 10px;
 }
 
 @media only screen and (max-width: 300px){
