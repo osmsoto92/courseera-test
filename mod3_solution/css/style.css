@@ -1,0 +1,60 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:black;
+}
+header nav{
+background-color: gray;
+
+}
+.navbar-light .navbar-toggler {
+    border-color: black;
+}
+#nav-list a:hover{
+    background-color: white;
+}
+#nav-list a{
+    font-weight: bold;
+    color: black;
+}
+
+#title{
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+.menu-titles{
+    font-weight: bold;
+    text-align: center;
+    padding-top:15px;
+
+}
+
+.food-container{
+    background-color: gray;
+    height: 700px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.food-description{
+    p
+}
+
+@media only screen and (max-width: 287px){
+    .container-fluid h1{
+        font-size:1em;
+        font-weight: bold;
+    }
+}
+
+
